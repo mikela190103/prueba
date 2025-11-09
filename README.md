@@ -295,8 +295,6 @@ mvn test -Dorg.slf4j.simpleLogger.defaultLogLevel=debug
 aws ecs describe-services --cluster devops-payload-prod-cluster --services devops-payload-prod-service
 ```
 
-Ver [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md) para más troubleshooting.
-
 ## 📊 Arquitectura
 
 ```
@@ -369,7 +367,4 @@ Este proyecto es parte de la prueba técnica de DevOps para Banco Pichincha.
 
 ---
 
-**Desarrollado con ❤️ siguiendo Clean Code y TDD**
-
-Para más información, consulta la [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)
 
